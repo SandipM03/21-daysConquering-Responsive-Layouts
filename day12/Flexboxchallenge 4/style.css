@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+img{
+    max-width: 100%;
+}
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+.container{
+    width: 90%;
+    max-width: 1128px;
+    min-height: 660px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    border: 2px solid rgb(9, 9, 9);
+}
+.header1{
+    background-color: #F3EED9;
+    margin: 0 auto;  
+    padding: 8rem;
+    
+}
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0rem;
+    letter-spacing: 0.51rem;
+}
+.headline{
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    color: #824936;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+}
+.header2{
+   
+    background-color: #fffefe;
+    margin: 0 auto;
+}
+.header2-title{
+    text-align: center;
+    color: #824936;
+    font-family: "Playfair Display", serif ;
+    font-size: 36px;
+}
+.colum{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    
+}
+.header3{
+    background-color: #222C2A;
+    color: #f4f7f6;
+    padding: 5rem;
+}
+.header3-container{
+    display: flex;
+    margin: 0 auto;
+}
+.header3-colum{
+    width: 48%;
+}
+.header3-title{
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+}
+
+.header4{
+    background-color: #824936;
+    color: #f4f7f6;
+    padding: 5rem;
+}
+.header4-container{
+    display: flex;
+    margin: 0 auto;
+}
+.header4-colum{
+    width: 47%;
+    margin-left: 2rem;
+}
+.header4-title{
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+}
