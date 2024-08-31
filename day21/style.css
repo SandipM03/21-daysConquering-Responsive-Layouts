@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3rem;
+}
+img{
+    width: 100%;
+}
+h1 {
+    font-size: 3rem;
+    margin-top: 0;
+}
+
+header{
+    background-color: #2e323f;
+    padding: 1em 0;
+    align-items: center;
+    
+}
+.container{
+    width: 80%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+}
+.nav-toggle{
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #072A2D;
+    color: white;
+    transition: opacity 250ms ease;
+    
+    position: absolute;
+    left: 0;
+}
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: #ffffff;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+.nav{
+    visibility: hidden;
+    height: 0;
+    position: absolute;
+    font-size: 1ewm;
+
+}
+.nav--visible{
+    visibility: visible;
+    height: auto;
+    position: relative;
+}
+.nav__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.nav__list--primary{
+    margin-bottom: 2em;
+}
+
+.nav__item{
+    margin-top: .75m;
+}
+.nav__link{
+    color: #A59678;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.logo {
+    height: 30px;
+}
+
+.nav__link--button{
+    padding: .25em .75em;
+    background-color: #fff;
+    color: #2E323F;
+    border-radius: 100px;
+}
+.nav__link:hover,
+.nav__link:focus {
+    opacity: .65;
+}
+.hero{
+    padding: 100px 0;
+    background-color: #3B4050;
+}
+.btn{
+    display: block;
+}
+span{
+    color: #A59678;
+}
+.row{
+    padding:22px;
+}
+.btn-flex{
+    width: 62%;
+}
+.hero-text{
+    width: 30%;
+    
+}
